@@ -38,9 +38,9 @@ public class BusquedaExterna {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("❌ No se encontró el archivo: " + ARCHIVO_PRODUCTOS);
+            System.out.println("No se encontró el archivo: " + ARCHIVO_PRODUCTOS);
         } catch (IOException e) {
-            System.out.println("⚠️ Error al leer el archivo: " + e.getMessage());
+            System.out.println("Error al leer el archivo: " + e.getMessage());
         }
     }
 }
